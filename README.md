@@ -2,6 +2,8 @@
 
 A command-line text processing toolkit designed for macOS Automator integration. This project provides various AI-powered text processing functions including translation, summarization, and grammar improvement.
 
+![Service](./appendix/services.png)
+
 ## Why This Tool Exists
 
 As a programmer, I've been reflecting on how AI can genuinely help my workflow. While many AI tools focus on code generation or automating development tasks like creating PRs or searching wikis, I believe these miss the point of what we actually need as developers.
@@ -18,6 +20,8 @@ However, I realized there's a different category of work where AI can be genuine
 These tasks are repetitive, don't require creative thinking, and often interrupt my flow when I'm focused on more important work. This is where AI can truly add value - handling the mundane text processing so I can focus on what matters most.
 
 That's why I built this toolkit: to automate the boring text work while keeping full control over the meaningful parts of my job.
+
+![Summarize](./appendix/summarize.png)
 
 ## Features
 

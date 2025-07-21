@@ -25,7 +25,7 @@ program
       const result = await processText(functionName, text);
       osa.execAsync(`
         set longContent to ${JSON.stringify(result)}
-        display dialog "Result" default answer longContent with title "Result" buttons { "OK" } default button "OK"
+        display dialog "This is the execution result:" default answer longContent with title "Result" buttons { "OK" } default button "OK"
       `);
       clipboard.writeSync(result);
     } catch (error) {
